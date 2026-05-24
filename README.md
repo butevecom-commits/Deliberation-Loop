@@ -49,14 +49,25 @@ examples/         → Worked examples at each intensity level
 
 **Does NOT trigger on**: Simple fact queries, single-correct-answer questions, tasks requiring minimal thought.
 
-## Installation
+## Quick Install
 
 ```bash
-# Copy to Claude Code skills directory
-cp -r deliberation-loop ~/.claude/skills/
+git clone https://github.com/butevecom-commits/Deliberation-Loop.git ~/.claude/skills/deliberation-loop
 ```
 
-Restart Claude Code or start a new conversation. The skill auto-loads when a matching question is detected.
+That's it. Restart Claude Code or start a new conversation — the skill auto-loads when a matching question is detected.
+
+To update later:
+
+```bash
+cd ~/.claude/skills/deliberation-loop && git pull
+```
+
+To uninstall:
+
+```bash
+rm -rf ~/.claude/skills/deliberation-loop
+```
 
 ## Environment
 
