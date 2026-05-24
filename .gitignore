@@ -1,0 +1,39 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+
+# Git
+.git/
+
+# Temp files
+*.tmp
+*.temp
+*.log
+
+# Node (if scripts are added later)
+node_modules/
+
+# Python (if scripts are added later)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Archive
+*.zip
+*.tar.gz
+*.rar
